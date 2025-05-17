@@ -6,7 +6,6 @@ import { FaNodeJs } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "framer-motion";
 
-// Each icon has a link
 const techIcons = [
   {
     icon: <RiReactjsLine className="text-7xl text-cyan-400" />,

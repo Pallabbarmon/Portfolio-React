@@ -20,7 +20,6 @@ const Hero = () => {
   return (
     <div className="border-b border-neutral-900 pb-4 mb-16">
       <div className="flex flex-wrap items-center">
-        {/* LEFT COLUMN: Text */}
         <motion.div
           className="w-full lg:w-1/2"
           initial={{ opacity: 0, x: -50 }}
@@ -32,7 +31,7 @@ const Hero = () => {
               variants={containerVariants}
               initial="hidden"
               animate="visible"
-              className="text-left pb-6 text-5xl sm:text-6xl lg:text-7xl font-thin tracking-tight mt-12 pl-2" // Adjusted padding-left
+              className="text-left pb-6 text-5xl sm:text-6xl lg:text-7xl font-thin tracking-tight mt-12 pl-2" 
             >
               <motion.span variants={lineVariants}>Pallab Barman</motion.span>
             </motion.h1>
@@ -57,7 +56,6 @@ const Hero = () => {
           </div>
         </motion.div>
 
-        {/* RIGHT COLUMN: Image */}
         <motion.div
           className="w-full lg:w-1/2 lg:p-8 flex justify-center"
           initial={{ opacity: 0, x: 50 }}

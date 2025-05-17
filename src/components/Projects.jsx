@@ -32,8 +32,8 @@ const Projects = () => {
                   height={150}
                   alt={project.title}
                   className="mb-6 rounded cursor-pointer"
-                  whileHover={{ scale: 1.1 }} // Scale up on hover
-                  transition={{ duration: 0.3 }} // Duration of the hover effect
+                  whileHover={{ scale: 1.1 }} 
+                  transition={{ duration: 0.3 }} 
                 />
               </Link>
             </div>

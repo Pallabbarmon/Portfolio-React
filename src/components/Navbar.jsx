@@ -13,20 +13,19 @@ const Navbar = () => {
       transition={{ duration: 0.6 }}
       className="mb-20 flex items-center justify-between py-6"
     >
-      {/* Logo */}
+
       <div className="flex items-center">
         <img src={logo} alt="logo" className="h-20 w-auto" />
       </div>
 
-      {/* Social Icons */}
       <div className="m-8 flex items-center justify-center gap-4 text-2xl">
         <motion.a
           href="https://www.linkedin.com/in/pallab-barman02/"
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-400 transition-colors"
-          whileHover={{ scale: 1.2, rotate: 10 }} // Scale and rotate on hover
-          transition={{ duration: 0.3 }} // Duration of the hover effect
+          whileHover={{ scale: 1.2, rotate: 10 }} 
+          transition={{ duration: 0.3 }} 
         >
           <FaLinkedin />
         </motion.a>
@@ -35,8 +34,8 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-400 transition-colors"
-          whileHover={{ scale: 1.2, rotate: 10 }} // Scale and rotate on hover
-          transition={{ duration: 0.3 }} // Duration of the hover effect
+          whileHover={{ scale: 1.2, rotate: 10 }} 
+          transition={{ duration: 0.3 }} 
         >
           <FaGithub />
         </motion.a>
@@ -45,8 +44,8 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-400 transition-colors"
-          whileHover={{ scale: 1.2, rotate: 10 }} // Scale and rotate on hover
-          transition={{ duration: 0.3 }} // Duration of the hover effect
+          whileHover={{ scale: 1.2, rotate: 10 }} 
+          transition={{ duration: 0.3 }} 
         >
           <FaSquareXTwitter />
         </motion.a>
@@ -55,8 +54,8 @@ const Navbar = () => {
           target="_blank"
           rel="noopener noreferrer"
           className="hover:text-purple-400 transition-colors"
-          whileHover={{ scale: 1.2, rotate: 10 }} // Scale and rotate on hover
-          transition={{ duration: 0.3 }} // Duration of the hover effect
+          whileHover={{ scale: 1.2, rotate: 10 }} 
+          transition={{ duration: 0.3 }} 
         >
           <FaInstagram />
         </motion.a>

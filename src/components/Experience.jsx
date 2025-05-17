@@ -32,7 +32,6 @@ const Experience = () => {
               viewport={{ once: true }}
               className="mb-12 flex flex-wrap lg:justify-center"
             >
-              {/* Year */}
               <motion.div
                 className="w-full lg:w-1/4"
                 initial={{ opacity: 0, x: -20 }}
@@ -43,7 +42,6 @@ const Experience = () => {
                 <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
               </motion.div>
 
-              {/* Role, Company, Description, Technologies */}
               <div className="w-full max-w-xl lg:w-3/4">
                 <motion.h6
                   className="mb-2 font-semibold"
